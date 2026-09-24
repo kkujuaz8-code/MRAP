@@ -1,0 +1,10 @@
+/* 수익은 빨간색, 손실은 파란색 (한국 주식 시장 표준) */
+.text-danger { color: #dc3545 !important; } /* 빨강 */
+.text-primary { color: #0d6efd !important; } /* 파랑 */
+
+.stock-card {
+    transition: transform 0.2s ease-in-out;
+}
+.stock-card:hover {
+    transform: translateY(-5px);
+}
